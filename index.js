@@ -21,6 +21,9 @@ http.createServer(function (req, res) {
     case '/':
       handleRequests('./index.html', res);
       break;
+    case '/home':
+      handleRequests('./index.html', res);
+      break;
     case '/about':
       handleRequests('./about.html', res);
       break;
